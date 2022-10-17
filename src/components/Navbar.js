@@ -21,7 +21,7 @@ export default function Navbar() {
         <Search>
             <FiSearch style={{marginRight: '3px', color: 'white', fontSize: '1.5rem'}}/>
             <Button  sx={{ textTransform: 'lowercase', color: 'white'}}>Login</Button>
-            <Button variant="contained" sx={{bgcolor: 'white', textTransform:"inherit", color: '#FF6F28', padding: '0.5rem 1.5rem'}} >Register</Button>
+            <Button variant="contained" sx={{bgcolor: 'white', textTransform:"inherit", color: '#FF6F28', padding: '0.5rem 1.5rem', ":hover":{backgroundColor: 'white', color:'#FF6F28'}}} >Register</Button>
         </Search>
     </Nav>
   );
