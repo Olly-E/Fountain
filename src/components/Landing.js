@@ -1247,6 +1247,12 @@ const Chevron = styled.div`
     border: 1px solid var(--color-primary);
     color: var(--color-primary);
     font-size: 2rem;
+    :hover {
+      background: var(--color-primary);
+      color: white;
+      transition: all 300ms ease-in-out;
+
+    }
   }
 `;
 
