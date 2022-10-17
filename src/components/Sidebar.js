@@ -13,11 +13,11 @@ import {
     {
       name: "Home"
     },
-    { name: "Inbox"},
-    { name: "Outbox"},
-    { name: "Sent mail" },
-    { name: "Draft" },
-    { name: "Trash" },
+    { name: "Courses"},
+    { name: "Instructor"},
+    { name: "Scedule" },
+    { name: "contact us" },
+ 
   ];
   
   export default function Sidebar() {
